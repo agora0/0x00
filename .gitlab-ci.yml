@@ -2,6 +2,7 @@ image: ruby:2.6
 variables:
   JEKYLL_ENV: production
 before_script:
+  - gem install bundler:2.1.4
   - bundle install
 # cache:
 #   paths:
